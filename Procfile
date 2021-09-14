@@ -1,1 +1,1 @@
-web: gunicorn easypayer.wsgi --log-file - --log-level debug --preload --workers 1
+web: gunicorn easy_pay.wsgi --log-file - --log-level debug --preload --workers 1
